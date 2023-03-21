@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 2%;
+    width:90% ;
+    height: auto;
+    border: rgb(255, 255, 255) solid 7px;
+    border-radius: 18px;
+     background-color: lightgray;
+     position: relative;
+    flex-wrap: wrap;
+}
+body{
+    background-color: lightgray;
+}
+section{
+    height: 100vh;
+    width: 100%;
+       background-color: lightgray;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.big_pic img{
+width: 280px;
+height: auto;
+border-radius: 12px;
+border: white solid 5px;
+
+}
+.big_pic{
+    width:34%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    
+}
+.right_side{
+    width: 66%;
+    height: 100%;
+    float: right;
+}
+.reg{
+    justify-content: right;
+    display: flex;
+    padding: 20px 20px;
+}
+.reg a{
+    text-decoration: none;
+    color: rgb(14, 37, 245);
+    padding-left: 4px;
+}
+.welc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.h{
+    font-size: 30px;
+    font-family:serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.welc div{
+    display: flex;
+    justify-content: center;
+}
+.inputes{
+    display: grid;
+    place-items: center;
+}
+input[type=text]{
+    border-color: transparent;
+    border-radius: 12px;
+    padding: 18px 10px;
+    width: 40%;
+}
+input[type=password]{
+    border-color: transparent;
+    border-radius: 12px;
+    padding: 18px 10px;
+    width: 40%;
+}
+.log{
+    padding: 30px 0px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.login{
+    border-radius: 12px;
+    width: 200px;
+    padding: 20px 0px;
+    background-color: rgb(231, 59, 59);
+transition: 200ms;
+box-shadow: 4px 4px 4px  rgb(143, 143, 143);
+border-color: transparent;
+color: white;
+}
+.login:hover{
+transform: scale(1.1,1.1);
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.imag{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 0px;
+}
+.imag img{
+    padding: 0px 4px;
+    width: 50px;
+    height: auto;
+    transition: 200ms;
+}
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp p{
+    font-size: 18px;
+}
+.ktba{
+    font-weight: 500;
+    font-size: 20px;
+}
+.imag img:hover{
+    transform: scale(1.1,1.1);
+}
+@media screen and (max-width:600px) {
+    .big_pic img{
+      visibility: hidden;
+    }
+    .big_pic{
+        width: 0%;
+        height: 0%;
+    }
+    .right_side{
+        width: 100%;
+    }
+}
