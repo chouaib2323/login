@@ -89,6 +89,9 @@ input[type=password]{
     padding: 18px 10px;
     width: 40%;
 }
+.ktba_head{
+    padding: 0px 10px;
+}
 .log{
     padding: 30px 0px;
 width: 100%;
